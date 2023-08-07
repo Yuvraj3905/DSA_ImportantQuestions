@@ -1,0 +1,17 @@
+import java.util.*;
+
+class circleDistribute{
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int choc=s.nextInt();
+        int students=s.nextInt();
+        int start=s.nextInt();
+        int n=(choc+start-1)%students;
+        if(n==0){
+            System.out.println(students);
+        }else{
+            System.out.println(n);
+        }
+
+    }
+}
